@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snowman Game</title>
+    <link rel="stylesheet" href="/dist/canvas_game.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/three/three.min.js"></script>
+    <link rel="icon" href="/images/favicon.png" />
+    <base href="/" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div id="canvas-view"></div>
+      <div class="popup-body">
+        <div class="score">
+          <h1>Build a snowman!</h1>
+          <div class="colors-div">
+            <form class="form-colors">
+              <label for="colors">Please choose your colors:</label> <br />
+
+              <label
+                ><input type="checkbox" class="check" value="black" />
+                Black</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="green" />
+                Green</label
+              >
+              <br />
+              <label
+                ><input type="checkbox" class="check" value="yellow" />
+                Yellow</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="blue" />
+                Blue</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="red" /> Red </label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="orange" />
+                Orange</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="pink" />
+                Pink</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="purple" />
+                Purple</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="grey" />
+                Grey</label
+              ><br />
+              <label
+                ><input type="checkbox" class="check" value="brown" />
+                Brown </label
+              ><br />
+              <button type="submit" name="submit" class="single-player-start-button" onclick="return hidepopup()">Start game</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    
+    <div class="map">
+      <canvas id="map-canvas" width="200" height="200"></canvas>
+    </div>
+
+    <script type="text/javascript" src="../dist/customization.js"></script>
+    <script type="text/javascript" src="../dist/snowman-game.js"></script>
+  </body>
+</html>

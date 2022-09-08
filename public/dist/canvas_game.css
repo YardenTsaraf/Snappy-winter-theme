@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: Verdana;
+}
+
+.single-player-start {
+  max-width: 70%;
+  overflow: scroll;
+  min-width: 600px;
+  max-height: 80vh;
+  z-index: 10000;
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.message {
+  font-size: 30px;
+  padding: 5px;
+  position: absolute;
+  margin: 0 auto;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.message a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  background: #8cd98c;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.message a:hover {
+  background: #40bf40;
+}
+
+.popup-body {
+  background-color: aqua;
+  border-radius: 20px;  
+  font-size: 17px;
+}
+
+.score {
+  position: fixed;
+  top: 200px;
+  left: 350px;
+  border: 1px solid blue;
+  width: 650px;
+  text-align: center;
+  background-color: rgb(179, 218, 233);
+  padding: 30px;
+  display: block;
+}
+
+.single-player-start-button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.submit-btn {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(9, 78, 78);
+}
